@@ -1,0 +1,3146 @@
+[
+  {
+    "device_id": "6j9dYnx1Q4eoPF81f07-0k",
+    "created_at": "2024-06-14T21:56:29Z",
+    "updated_at": "2024-11-11T04:01:25Z",
+    "activated_at": "2024-06-14T21:57:15.994835Z",
+    "delivered_at": null,
+    "factory_id": "2RVP212402734",
+    "active_state": "active",
+    "display_name": "Alejandro",
+    "bcc_id": "",
+    "make": "raven",
+    "model": "raven",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 mph",
+        "unit": "mph",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "ignore_unset_min_num_sats": true,
+      "initial_device_point_delete_cutoff_time": "2024-06-17T21:57:15.994833Z",
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 8,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "0d352fddfdc841d89545aec624997795",
+    "user_id_list": [
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jGVTCfhND1TyF81f07-1V",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp36H1Pd5tTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiG7CckNm93tV81f07-1V",
+      "dt_server": "2024-12-13T05:21:06.107964Z",
+      "dt_tracker": "2024-12-13T05:21:00Z",
+      "lat": 34.672039,
+      "lng": -118.073318,
+      "altitude": null,
+      "angle": 336,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "evtc": "0",
+        "evtc_raven": "-1",
+        "gpslev": "10",
+        "hdop": "1.0",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "obd_batt_volt_raven": "12.94",
+        "obd_battery_voltage": "12.94",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "0",
+        "posted_spd_raven": "0",
+        "rssi": "-61"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "2RVP212402734",
+        "transmit_time": "2024-12-13T05:21:00Z",
+        "gps_time": "2024-12-13T05:21:00Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.672039,
+          "lng": -118.073318
+        },
+        "altitude": {},
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 336,
+        "hdop": 1,
+        "num_satellites": 10,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "",
+        "rssi": -60.666668,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.94019,
+        "backup_battery_volt": null,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": null,
+        "session_connected": null,
+        "diff_corrected": null,
+        "predicted": null,
+        "input_1_high": null,
+        "input_2_high": null
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiEti57QzTUck81f07-1k",
+        "drive_status_duration": {
+          "display": "2h 20m 28s",
+          "unit": "s",
+          "value": 8428
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "49.2 m",
+          "unit": "m",
+          "value": 49.24592947682611
+        },
+        "drive_status_begin_time": "2024-12-13T03:00:32Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.67205,
+          "lng": -118.073265
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:21:00.000000|2024-12-13 05:21:06.107964|6jiG7CckNm93tV81f07-1V"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiG7CckNm93tV81f07-1V",
+      "dt_server": "2024-12-13T05:21:06.107964Z",
+      "dt_tracker": "2024-12-13T05:21:00Z",
+      "lat": 34.672039,
+      "lng": -118.073318,
+      "altitude": null,
+      "angle": 336,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "evtc": "0",
+        "evtc_raven": "-1",
+        "gpslev": "10",
+        "hdop": "1.0",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "obd_batt_volt_raven": "12.94",
+        "obd_battery_voltage": "12.94",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "0",
+        "posted_spd_raven": "0",
+        "rssi": "-61"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "2RVP212402734",
+        "transmit_time": "2024-12-13T05:21:00Z",
+        "gps_time": "2024-12-13T05:21:00Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.672039,
+          "lng": -118.073318
+        },
+        "altitude": {},
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 336,
+        "hdop": 1,
+        "num_satellites": 10,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "",
+        "rssi": -60.666668,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.94019,
+        "backup_battery_volt": null,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": null,
+        "session_connected": null,
+        "diff_corrected": null,
+        "predicted": null,
+        "input_1_high": null,
+        "input_2_high": null
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiEti57QzTUck81f07-1k",
+        "drive_status_duration": {
+          "display": "2h 20m 28s",
+          "unit": "s",
+          "value": 8428
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "49.2 m",
+          "unit": "m",
+          "value": 49.24592947682611
+        },
+        "drive_status_begin_time": "2024-12-13T03:00:32Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.67205,
+          "lng": -118.073265
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:21:00.000000|2024-12-13 05:21:06.107964|6jiG7CckNm93tV81f07-1V"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6eRi3MJEOyHxmk81f07--V",
+    "created_at": "2020-03-30T23:49:27Z",
+    "updated_at": "2024-12-12T06:10:10Z",
+    "activated_at": "2020-05-06T18:18:01.954125Z",
+    "delivered_at": null,
+    "factory_id": "4572156489",
+    "active_state": "active",
+    "display_name": "DJ",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "3035 DTC A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 mph",
+        "unit": "mph",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "2 mph",
+        "unit": "mph",
+        "value": 2
+      },
+      "calamp_odom_accumulator": "acm15",
+      "calamp_vbus_detection_bitfield": 95,
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 6,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6er0WvigO-PNhk81f07-0-",
+      "6f9VR1G7O8eej-81f07-0-",
+      "6frq6OcXPbyvy-81f07-0-",
+      "6g3ateNyQ799R-81f07-0V",
+      "6gFotr8GPQPQVV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gpWGax8QKTBlF81f07-0V",
+      "6gzKVTwiQhqrhk81f07-0V",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jGVTCfhND1TyF81f07-1V",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp36H1Pd5tTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiG-j9BQreURF81f07-1k",
+      "dt_server": "2024-12-13T05:07:43.35354Z",
+      "dt_tracker": "2024-12-13T05:07:42Z",
+      "lat": 34.1600405,
+      "lng": -117.993815,
+      "altitude": 214.55,
+      "angle": 35,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "3465945617",
+        "acm1": "336242758",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12707",
+        "acm13": "4100",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "6876",
+        "acm2": "3116685970",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "74",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1392",
+        "acm29": "0",
+        "acm3": "264",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "18",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-80",
+        "seatbelt": "0",
+        "seq_num": "11677",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "5YFBURHE9FP342143"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572156489",
+        "transmit_time": "2024-12-13T05:07:43Z",
+        "gps_time": "2024-12-13T05:07:42Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.1600405,
+          "lng": -117.993815
+        },
+        "altitude": {
+          "display": "214.6 m",
+          "unit": "m",
+          "value": 214.55
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 35,
+        "hdop": 0.7,
+        "num_satellites": 18,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "11677",
+        "rssi": -80,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.707,
+        "backup_battery_volt": 4.1,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiEgaKrPK1Y8k81f07-1V",
+        "drive_status_duration": {
+          "display": "2h 30m 34s",
+          "unit": "s",
+          "value": 9034
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "1.4 m",
+          "unit": "m",
+          "value": 1.3627766110257142
+        },
+        "drive_status_begin_time": "2024-12-13T02:37:08Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.1600365,
+          "lng": -117.99382899999999
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:07:42.000000|2024-12-13 05:07:43.353540|6jiG-j9BQreURF81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiG-j9BQreURF81f07-1k",
+      "dt_server": "2024-12-13T05:07:43.35354Z",
+      "dt_tracker": "2024-12-13T05:07:42Z",
+      "lat": 34.1600405,
+      "lng": -117.993815,
+      "altitude": 214.55,
+      "angle": 35,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "3465945617",
+        "acm1": "336242758",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12707",
+        "acm13": "4100",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "6876",
+        "acm2": "3116685970",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "74",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1392",
+        "acm29": "0",
+        "acm3": "264",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "18",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-80",
+        "seatbelt": "0",
+        "seq_num": "11677",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "5YFBURHE9FP342143"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572156489",
+        "transmit_time": "2024-12-13T05:07:43Z",
+        "gps_time": "2024-12-13T05:07:42Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.1600405,
+          "lng": -117.993815
+        },
+        "altitude": {
+          "display": "214.6 m",
+          "unit": "m",
+          "value": 214.55
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 35,
+        "hdop": 0.7,
+        "num_satellites": 18,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "11677",
+        "rssi": -80,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.707,
+        "backup_battery_volt": 4.1,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiEgaKrPK1Y8k81f07-1V",
+        "drive_status_duration": {
+          "display": "2h 30m 34s",
+          "unit": "s",
+          "value": 9034
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "1.4 m",
+          "unit": "m",
+          "value": 1.3627766110257142
+        },
+        "drive_status_begin_time": "2024-12-13T02:37:08Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.1600365,
+          "lng": -117.99382899999999
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:07:42.000000|2024-12-13 05:07:43.353540|6jiG-j9BQreURF81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6dQe8i0fNrLXp-81f07-0-",
+    "created_at": "2019-05-04T19:25:52Z",
+    "updated_at": "2024-12-12T06:00:25Z",
+    "activated_at": "2019-05-14T16:08:05.126164Z",
+    "delivered_at": null,
+    "factory_id": "4674412707",
+    "active_state": "active",
+    "display_name": "Fabian",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "2630 A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 km/h",
+        "unit": "km/h",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "2 mph",
+        "unit": "mph",
+        "value": 2
+      },
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3,
+      "min_num_satellites": 5,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true,
+      "vin": "1GCWGAFF1G1179242"
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6dszt0R2NqXDfF81f07-0-",
+      "6dt7xZRjNfyzKk81f07-0-",
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6eIT5egBO7uOvV81f07-0-",
+      "6er0WvigO-PNhk81f07-0-",
+      "6fCSRfWwQ5iekV81f07--k",
+      "6fRWeDMpP7eJhV81f07-0-",
+      "6frq6OcXPbyvy-81f07-0-",
+      "6g3ateNyQ799R-81f07-0V",
+      "6gFotr8GPQPQVV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gpWGax8QKTBlF81f07-0V",
+      "6gzKVTwiQhqrhk81f07-0V",
+      "6hHooevYN-P0Ok81f07-0F",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6hnoo-0PO2u0Y-81f07--k",
+      "6hvfew4BQDT2Y-81f07-0F",
+      "6hvfvkvmO1D2jF81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp2wUqO3XtTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiGAK_zNY5Gx-81f07-1k",
+      "dt_server": "2024-12-13T05:26:41.58159Z",
+      "dt_tracker": "2024-12-13T05:26:41Z",
+      "lat": 39.009993099999996,
+      "lng": -122.0590615,
+      "altitude": 14.19,
+      "angle": 79,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2232435062",
+        "acm1": "383866175",
+        "acm10": "0",
+        "acm11": "0",
+        "acm12": "12707",
+        "acm13": "4032",
+        "acm2": "3075618731",
+        "acm3": "0",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "88",
+        "evti": "112",
+        "gpslev": "10",
+        "hdop": "0.9",
+        "input1": "0",
+        "input2": "1",
+        "last_known_loc": "0",
+        "predicted_gps": "0",
+        "rssi": "-83",
+        "seq_num": "10377",
+        "service_type": "ack_request",
+        "valid_fix": "1"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4674412707",
+        "transmit_time": "2024-12-13T05:26:41Z",
+        "gps_time": "2024-12-13T05:26:41Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 39.009993099999996,
+          "lng": -122.0590615
+        },
+        "altitude": {
+          "display": "14.2 m",
+          "unit": "m",
+          "value": 14.19
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 79,
+        "hdop": 0.90000004,
+        "num_satellites": 10,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "10377",
+        "rssi": -83,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.707,
+        "backup_battery_volt": 4.032,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": true
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiD0jocN5yZzV81f07-1V",
+        "drive_status_duration": {
+          "display": "6h 46s",
+          "unit": "s",
+          "value": 21646
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.9 m",
+          "unit": "m",
+          "value": 3.944500351915183
+        },
+        "drive_status_begin_time": "2024-12-12T23:25:55Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 39.0099605,
+          "lng": -122.0590435
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:26:41.000000|2024-12-13 05:26:41.581590|6jiGAK_zNY5Gx-81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiGAK_zNY5Gx-81f07-1k",
+      "dt_server": "2024-12-13T05:26:41.58159Z",
+      "dt_tracker": "2024-12-13T05:26:41Z",
+      "lat": 39.009993099999996,
+      "lng": -122.0590615,
+      "altitude": 14.19,
+      "angle": 79,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2232435062",
+        "acm1": "383866175",
+        "acm10": "0",
+        "acm11": "0",
+        "acm12": "12707",
+        "acm13": "4032",
+        "acm2": "3075618731",
+        "acm3": "0",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "88",
+        "evti": "112",
+        "gpslev": "10",
+        "hdop": "0.9",
+        "input1": "0",
+        "input2": "1",
+        "last_known_loc": "0",
+        "predicted_gps": "0",
+        "rssi": "-83",
+        "seq_num": "10377",
+        "service_type": "ack_request",
+        "valid_fix": "1"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4674412707",
+        "transmit_time": "2024-12-13T05:26:41Z",
+        "gps_time": "2024-12-13T05:26:41Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 39.009993099999996,
+          "lng": -122.0590615
+        },
+        "altitude": {
+          "display": "14.2 m",
+          "unit": "m",
+          "value": 14.19
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 79,
+        "hdop": 0.90000004,
+        "num_satellites": 10,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "10377",
+        "rssi": -83,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.707,
+        "backup_battery_volt": 4.032,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": true
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiD0jocN5yZzV81f07-1V",
+        "drive_status_duration": {
+          "display": "6h 46s",
+          "unit": "s",
+          "value": 21646
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.9 m",
+          "unit": "m",
+          "value": 3.944500351915183
+        },
+        "drive_status_begin_time": "2024-12-12T23:25:55Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 39.0099605,
+          "lng": -122.0590435
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:26:41.000000|2024-12-13 05:26:41.581590|6jiGAK_zNY5Gx-81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6g-SS2xWNvHfh-81f07-0-",
+    "created_at": "2021-08-20T16:54:21Z",
+    "updated_at": "2024-12-12T06:01:06Z",
+    "activated_at": "2021-08-18T16:54:24.40011Z",
+    "delivered_at": null,
+    "factory_id": "4572265155",
+    "active_state": "active",
+    "display_name": "Ford Transit Connect",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "3030 DTC A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "4.8 km/h",
+        "unit": "km/h",
+        "value": 4.828024
+      },
+      "begin_stopped_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "calamp_odom_accumulator": "acm15",
+      "calamp_vbus_detection_bitfield": 95,
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 6,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true,
+      "vin": "4T4BF3EK1BR147251"
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6dt7xZRjNfyzKk81f07-0-",
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6gECvqoHQDeEOk81f07-0V",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gzKVTwiQhqrhk81f07-0V",
+      "6hHooevYN-P0Ok81f07-0F",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6hvfew4BQDT2Y-81f07-0F",
+      "6hvfvkvmO1D2jF81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jGVTCfhND1TyF81f07-1V",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp36H1Pd5tTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiG2j0pPVi3v-81f07-1k",
+      "dt_server": "2024-12-13T05:13:05.259376Z",
+      "dt_tracker": "2024-12-13T05:13:04Z",
+      "lat": 33.662817499999996,
+      "lng": -117.327753,
+      "altitude": 359.03,
+      "angle": 203,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2525716929",
+        "acm1": "336605755",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12676",
+        "acm13": "4094",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "8894",
+        "acm2": "3122007190",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "124",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1376",
+        "acm29": "208",
+        "acm3": "5121",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "15",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-73",
+        "seatbelt": "0",
+        "seq_num": "24842",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "4T4BF3EK1BR147251"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572265155",
+        "transmit_time": "2024-12-13T05:13:05Z",
+        "gps_time": "2024-12-13T05:13:04Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 33.662817499999996,
+          "lng": -117.327753
+        },
+        "altitude": {
+          "display": "359 m",
+          "unit": "m",
+          "value": 359.03
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 203,
+        "hdop": 0.7,
+        "num_satellites": 15,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "24842",
+        "rssi": -73,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.676,
+        "backup_battery_volt": 4.094,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiDxJMDPtDYVF81f07-1V",
+        "drive_status_duration": {
+          "display": "4h 33s",
+          "unit": "s",
+          "value": 14433
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.1 m",
+          "unit": "m",
+          "value": 3.1139265198408608
+        },
+        "drive_status_begin_time": "2024-12-13T01:12:31Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 33.662789599999996,
+          "lng": -117.3277559
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:13:04.000000|2024-12-13 05:13:05.259376|6jiG2j0pPVi3v-81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiG2j0pPVi3v-81f07-1k",
+      "dt_server": "2024-12-13T05:13:05.259376Z",
+      "dt_tracker": "2024-12-13T05:13:04Z",
+      "lat": 33.662817499999996,
+      "lng": -117.327753,
+      "altitude": 359.03,
+      "angle": 203,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2525716929",
+        "acm1": "336605755",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12676",
+        "acm13": "4094",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "8894",
+        "acm2": "3122007190",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "124",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1376",
+        "acm29": "208",
+        "acm3": "5121",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "15",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-73",
+        "seatbelt": "0",
+        "seq_num": "24842",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "4T4BF3EK1BR147251"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572265155",
+        "transmit_time": "2024-12-13T05:13:05Z",
+        "gps_time": "2024-12-13T05:13:04Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 33.662817499999996,
+          "lng": -117.327753
+        },
+        "altitude": {
+          "display": "359 m",
+          "unit": "m",
+          "value": 359.03
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 203,
+        "hdop": 0.7,
+        "num_satellites": 15,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "24842",
+        "rssi": -73,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.676,
+        "backup_battery_volt": 4.094,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiDxJMDPtDYVF81f07-1V",
+        "drive_status_duration": {
+          "display": "4h 33s",
+          "unit": "s",
+          "value": 14433
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.1 m",
+          "unit": "m",
+          "value": 3.1139265198408608
+        },
+        "drive_status_begin_time": "2024-12-13T01:12:31Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 33.662789599999996,
+          "lng": -117.3277559
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:13:04.000000|2024-12-13 05:13:05.259376|6jiG2j0pPVi3v-81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6eOXosw8Qrqem-81f07--V",
+    "created_at": "2020-03-14T19:51:40Z",
+    "updated_at": "2024-12-12T06:15:17Z",
+    "activated_at": "2020-07-01T19:50:34.944362Z",
+    "delivered_at": null,
+    "factory_id": "4572103086",
+    "active_state": "active",
+    "display_name": "Francis Bs",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "3035 DTC A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 km/h",
+        "unit": "km/h",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "2 mph",
+        "unit": "mph",
+        "value": 2
+      },
+      "calamp_vbus_detection_bitfield": 94,
+      "disable_hardware_odometer": true,
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3,
+      "min_num_satellites": 5,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6fCSRfWwQ5iekV81f07--k",
+      "6gECvqoHQDeEOk81f07-0V",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gzKVTwiQhqrhk81f07-0V",
+      "6hHooevYN-P0Ok81f07-0F",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6hvfew4BQDT2Y-81f07-0F",
+      "6hvfvkvmO1D2jF81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jGVTCfhND1TyF81f07-1V",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp36H1Pd5tTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiGAartNNTUxF81f07-1k",
+      "dt_server": "2024-12-13T05:27:10.570351Z",
+      "dt_tracker": "2024-12-13T05:27:10Z",
+      "lat": 33.9707316,
+      "lng": -117.039226,
+      "altitude": 673.45,
+      "angle": 136,
+      "speed": 109.799995,
+      "params": {
+        "acc": "1",
+        "acm0": "2417172878",
+        "acm1": "339087798",
+        "acm10": "9",
+        "acm11": "77544",
+        "acm12": "14075",
+        "acm13": "4068",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "0",
+        "acm2": "3116454485",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "129",
+        "acm25": "0",
+        "acm26": "18975",
+        "acm27": "1764",
+        "acm28": "1360",
+        "acm29": "1719978806",
+        "acm3": "0",
+        "acm4": "343",
+        "acm5": "1232",
+        "acm6": "456",
+        "acm7": "3425",
+        "acm8": "3050",
+        "acm9": "0",
+        "evtc": "12",
+        "evti": "18",
+        "gpslev": "14",
+        "hdop": "0.8",
+        "input1": "1",
+        "input2": "0",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "oil_press_lamp": "0",
+        "osm_way_id": "1063280601",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "1",
+        "posted_spd_debug_str": "cached=(true)",
+        "posted_spd_src": "osm",
+        "predicted_gps": "0",
+        "rssi": "-71",
+        "seatbelt": "0",
+        "seq_num": "29590",
+        "service_type": "ack_request",
+        "v3engh": "25337579.999989",
+        "v3odo": "312679.069099",
+        "valid_fix": "1",
+        "vin": "4T1BK1FK9HU580771"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_checked": true,
+        "posted_speed_debug_str": "cached=(true)",
+        "posted_speed_limit": {
+          "display": "70 mph",
+          "unit": "mph",
+          "value": 70
+        },
+        "posted_speed_osm_way_id": 1063280601,
+        "posted_speed_source": "osm",
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572103086",
+        "transmit_time": "2024-12-13T05:27:10Z",
+        "gps_time": "2024-12-13T05:27:10Z",
+        "acc": true,
+        "lat_lng": {
+          "lat": 33.9707316,
+          "lng": -117.039226
+        },
+        "altitude": {
+          "display": "673.5 m",
+          "unit": "m",
+          "value": 673.45
+        },
+        "speed": {
+          "display": "109.8 km/h",
+          "unit": "km/h",
+          "value": 109.799995
+        },
+        "heading": 136,
+        "hdop": 0.8,
+        "num_satellites": 14,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "29590",
+        "rssi": -71,
+        "trip_distance": {
+          "display": "77544 m",
+          "unit": "m",
+          "value": 77544
+        },
+        "travel_distance": {},
+        "external_volt": 14.075,
+        "backup_battery_volt": 4.068,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": true,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "driving",
+        "drive_status_id": "6jiFmTCAPcPYJk81f07-1V",
+        "drive_status_duration": {
+          "display": "44m 59s",
+          "unit": "s",
+          "value": 2699
+        },
+        "drive_status_distance": {
+          "display": "70889 m",
+          "unit": "m",
+          "value": 70889
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "70523.7 m",
+          "unit": "m",
+          "value": 70523.69027422351
+        },
+        "drive_status_begin_time": "2024-12-13T04:42:11Z",
+        "best_distance_delta": {
+          "display": "915 m",
+          "unit": "m",
+          "value": 915
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 33.9707316,
+          "lng": -117.039226
+        },
+        "beyond_max_drift_distance": true,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:27:10.000000|2024-12-13 05:27:10.570351|6jiGAartNNTUxF81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiGAartNNTUxF81f07-1k",
+      "dt_server": "2024-12-13T05:27:10.570351Z",
+      "dt_tracker": "2024-12-13T05:27:10Z",
+      "lat": 33.9707316,
+      "lng": -117.039226,
+      "altitude": 673.45,
+      "angle": 136,
+      "speed": 109.799995,
+      "params": {
+        "acc": "1",
+        "acm0": "2417172878",
+        "acm1": "339087798",
+        "acm10": "9",
+        "acm11": "77544",
+        "acm12": "14075",
+        "acm13": "4068",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "0",
+        "acm2": "3116454485",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "129",
+        "acm25": "0",
+        "acm26": "18975",
+        "acm27": "1764",
+        "acm28": "1360",
+        "acm29": "1719978806",
+        "acm3": "0",
+        "acm4": "343",
+        "acm5": "1232",
+        "acm6": "456",
+        "acm7": "3425",
+        "acm8": "3050",
+        "acm9": "0",
+        "evtc": "12",
+        "evti": "18",
+        "gpslev": "14",
+        "hdop": "0.8",
+        "input1": "1",
+        "input2": "0",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "oil_press_lamp": "0",
+        "osm_way_id": "1063280601",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "1",
+        "posted_spd_debug_str": "cached=(true)",
+        "posted_spd_src": "osm",
+        "predicted_gps": "0",
+        "rssi": "-71",
+        "seatbelt": "0",
+        "seq_num": "29590",
+        "service_type": "ack_request",
+        "v3engh": "25337579.999989",
+        "v3odo": "312679.069099",
+        "valid_fix": "1",
+        "vin": "4T1BK1FK9HU580771"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_checked": true,
+        "posted_speed_debug_str": "cached=(true)",
+        "posted_speed_limit": {
+          "display": "70 mph",
+          "unit": "mph",
+          "value": 70
+        },
+        "posted_speed_osm_way_id": 1063280601,
+        "posted_speed_source": "osm",
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572103086",
+        "transmit_time": "2024-12-13T05:27:10Z",
+        "gps_time": "2024-12-13T05:27:10Z",
+        "acc": true,
+        "lat_lng": {
+          "lat": 33.9707316,
+          "lng": -117.039226
+        },
+        "altitude": {
+          "display": "673.5 m",
+          "unit": "m",
+          "value": 673.45
+        },
+        "speed": {
+          "display": "109.8 km/h",
+          "unit": "km/h",
+          "value": 109.799995
+        },
+        "heading": 136,
+        "hdop": 0.8,
+        "num_satellites": 14,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "29590",
+        "rssi": -71,
+        "trip_distance": {
+          "display": "77544 m",
+          "unit": "m",
+          "value": 77544
+        },
+        "travel_distance": {},
+        "external_volt": 14.075,
+        "backup_battery_volt": 4.068,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": true,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "driving",
+        "drive_status_id": "6jiFmTCAPcPYJk81f07-1V",
+        "drive_status_duration": {
+          "display": "44m 59s",
+          "unit": "s",
+          "value": 2699
+        },
+        "drive_status_distance": {
+          "display": "70889 m",
+          "unit": "m",
+          "value": 70889
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "70523.7 m",
+          "unit": "m",
+          "value": 70523.69027422351
+        },
+        "drive_status_begin_time": "2024-12-13T04:42:11Z",
+        "best_distance_delta": {
+          "display": "915 m",
+          "unit": "m",
+          "value": 915
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 33.9707316,
+          "lng": -117.039226
+        },
+        "beyond_max_drift_distance": true,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:27:10.000000|2024-12-13 05:27:10.570351|6jiGAartNNTUxF81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6fmwK6CTQ91Hf-81f07-0V",
+    "created_at": "2021-06-12T21:29:33Z",
+    "updated_at": "2024-12-07T06:17:07Z",
+    "activated_at": "2021-06-16T17:00:25.200524Z",
+    "delivered_at": null,
+    "factory_id": "4674794264",
+    "active_state": "active",
+    "display_name": "Frank",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "2630 A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 mph",
+        "unit": "mph",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "2 mph",
+        "unit": "mph",
+        "value": 2
+      },
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 6,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6dszt0R2NqXDfF81f07-0-",
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6eIT5egBO7uOvV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gpWGax8QKTBlF81f07-0V",
+      "6gvOT0_bOx1MJV81f07-0F",
+      "6hHooevYN-P0Ok81f07-0F",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6hnoo-0PO2u0Y-81f07--k",
+      "6hvfew4BQDT2Y-81f07-0F",
+      "6hvfvkvmO1D2jF81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp2wUqO3XtTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiGAFSsQymF6-81f07-1V",
+      "dt_server": "2024-12-13T05:26:32.9785Z",
+      "dt_tracker": "2024-12-13T05:26:32Z",
+      "lat": 37.3767856,
+      "lng": -121.8258005,
+      "altitude": 33.85,
+      "angle": 296,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2442355098",
+        "acm1": "377227601",
+        "acm10": "0",
+        "acm11": "0",
+        "acm12": "12768",
+        "acm13": "4022",
+        "acm2": "3077725625",
+        "acm3": "0",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "88",
+        "evti": "112",
+        "gpslev": "11",
+        "hdop": "0.9",
+        "input1": "0",
+        "input2": "1",
+        "last_known_loc": "0",
+        "predicted_gps": "0",
+        "rssi": "-69",
+        "seq_num": "854",
+        "service_type": "ack_request",
+        "valid_fix": "1"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4674794264",
+        "transmit_time": "2024-12-13T05:26:32Z",
+        "gps_time": "2024-12-13T05:26:32Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 37.3767856,
+          "lng": -121.8258005
+        },
+        "altitude": {
+          "display": "33.9 m",
+          "unit": "m",
+          "value": 33.85
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 296,
+        "hdop": 0.90000004,
+        "num_satellites": 11,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "854",
+        "rssi": -69,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.768,
+        "backup_battery_volt": 4.022,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": true
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiDZgmbQV5YMk81f07-1V",
+        "drive_status_duration": {
+          "display": "4h 58m 5s",
+          "unit": "s",
+          "value": 17885
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.7 m",
+          "unit": "m",
+          "value": 3.7273114447187417
+        },
+        "drive_status_begin_time": "2024-12-13T00:28:27Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 37.376768,
+          "lng": -121.8258364
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:26:32.000000|2024-12-13 05:26:32.978500|6jiGAFSsQymF6-81f07-1V"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiGAFSsQymF6-81f07-1V",
+      "dt_server": "2024-12-13T05:26:32.9785Z",
+      "dt_tracker": "2024-12-13T05:26:32Z",
+      "lat": 37.3767856,
+      "lng": -121.8258005,
+      "altitude": 33.85,
+      "angle": 296,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2442355098",
+        "acm1": "377227601",
+        "acm10": "0",
+        "acm11": "0",
+        "acm12": "12768",
+        "acm13": "4022",
+        "acm2": "3077725625",
+        "acm3": "0",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "88",
+        "evti": "112",
+        "gpslev": "11",
+        "hdop": "0.9",
+        "input1": "0",
+        "input2": "1",
+        "last_known_loc": "0",
+        "predicted_gps": "0",
+        "rssi": "-69",
+        "seq_num": "854",
+        "service_type": "ack_request",
+        "valid_fix": "1"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4674794264",
+        "transmit_time": "2024-12-13T05:26:32Z",
+        "gps_time": "2024-12-13T05:26:32Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 37.3767856,
+          "lng": -121.8258005
+        },
+        "altitude": {
+          "display": "33.9 m",
+          "unit": "m",
+          "value": 33.85
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 296,
+        "hdop": 0.90000004,
+        "num_satellites": 11,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "854",
+        "rssi": -69,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.768,
+        "backup_battery_volt": 4.022,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": true
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiDZgmbQV5YMk81f07-1V",
+        "drive_status_duration": {
+          "display": "4h 58m 5s",
+          "unit": "s",
+          "value": 17885
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "3.7 m",
+          "unit": "m",
+          "value": 3.7273114447187417
+        },
+        "drive_status_begin_time": "2024-12-13T00:28:27Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 37.376768,
+          "lng": -121.8258364
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:26:32.000000|2024-12-13 05:26:32.978500|6jiGAFSsQymF6-81f07-1V"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6jAOdk2wPiTjH-81f07-0k",
+    "created_at": "2024-06-18T17:44:40Z",
+    "updated_at": "2024-11-24T22:11:34Z",
+    "activated_at": "2024-06-18T17:45:09.284405Z",
+    "delivered_at": null,
+    "factory_id": "2RVP422301833",
+    "active_state": "active",
+    "display_name": "Mustang Angel",
+    "bcc_id": "",
+    "make": "raven",
+    "model": "raven",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "3 mph",
+        "unit": "mph",
+        "value": 3
+      },
+      "begin_stopped_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "ignore_unset_min_num_sats": true,
+      "initial_device_point_delete_cutoff_time": "2024-06-21T17:45:09.284403Z",
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 8,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "c9de146ed269450595077b31b278de30",
+    "user_id_list": [
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jGVTCfhND1TyF81f07-1V",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp36H1Pd5tTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiG5jujOlyqwk81f07-1k",
+      "dt_server": "2024-12-13T05:18:28.86333Z",
+      "dt_tracker": "2024-12-13T05:18:19Z",
+      "lat": 34.298725,
+      "lng": -118.426613,
+      "altitude": null,
+      "angle": 70,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "evtc": "0",
+        "evtc_raven": "-1",
+        "gpslev": "12",
+        "hdop": "0.9",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "obd_batt_volt_raven": "12.05",
+        "obd_battery_voltage": "12.05",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "0",
+        "posted_spd_raven": "0",
+        "rssi": "-58"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "2RVP422301833",
+        "transmit_time": "2024-12-13T05:18:19Z",
+        "gps_time": "2024-12-13T05:18:19Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.298725,
+          "lng": -118.426613
+        },
+        "altitude": {},
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 70,
+        "hdop": 0.9,
+        "num_satellites": 12,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "",
+        "rssi": -57.5,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.04676,
+        "backup_battery_volt": null,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": null,
+        "session_connected": null,
+        "diff_corrected": null,
+        "predicted": null,
+        "input_1_high": null,
+        "input_2_high": null
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiCazOROlXrEV81f07-1k",
+        "drive_status_duration": {
+          "display": "6h 40m 29s",
+          "unit": "s",
+          "value": 24029
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "83.8 m",
+          "unit": "m",
+          "value": 83.78882563944669
+        },
+        "drive_status_begin_time": "2024-12-12T22:37:50Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.298714,
+          "lng": -118.426605
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:18:19.000000|2024-12-13 05:18:28.863330|6jiG5jujOlyqwk81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiG5jujOlyqwk81f07-1k",
+      "dt_server": "2024-12-13T05:18:28.86333Z",
+      "dt_tracker": "2024-12-13T05:18:19Z",
+      "lat": 34.298725,
+      "lng": -118.426613,
+      "altitude": null,
+      "angle": 70,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "evtc": "0",
+        "evtc_raven": "-1",
+        "gpslev": "12",
+        "hdop": "0.9",
+        "last_known_loc": "0",
+        "mph_over_posted": "0",
+        "obd_batt_volt_raven": "12.05",
+        "obd_battery_voltage": "12.05",
+        "pct_over_posted": "0",
+        "posted_spd_checked": "0",
+        "posted_spd_raven": "0",
+        "rssi": "-58"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "2RVP422301833",
+        "transmit_time": "2024-12-13T05:18:19Z",
+        "gps_time": "2024-12-13T05:18:19Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 34.298725,
+          "lng": -118.426613
+        },
+        "altitude": {},
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 70,
+        "hdop": 0.9,
+        "num_satellites": 12,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "",
+        "rssi": -57.5,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.04676,
+        "backup_battery_volt": null,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": null,
+        "session_connected": null,
+        "diff_corrected": null,
+        "predicted": null,
+        "input_1_high": null,
+        "input_2_high": null
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6jiCazOROlXrEV81f07-1k",
+        "drive_status_duration": {
+          "display": "6h 40m 29s",
+          "unit": "s",
+          "value": 24029
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "83.8 m",
+          "unit": "m",
+          "value": 83.78882563944669
+        },
+        "drive_status_begin_time": "2024-12-12T22:37:50Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 34.298714,
+          "lng": -118.426605
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:18:19.000000|2024-12-13 05:18:28.863330|6jiG5jujOlyqwk81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  },
+  {
+    "device_id": "6fjDM4wwOK9wfk81f07--V",
+    "created_at": "2021-05-24T23:14:22Z",
+    "updated_at": "2024-12-07T06:17:07Z",
+    "activated_at": "2021-05-27T19:58:14.472656Z",
+    "delivered_at": null,
+    "factory_id": "4572263305",
+    "active_state": "active",
+    "display_name": "Sara",
+    "bcc_id": "",
+    "make": "calamp",
+    "model": "3030 DTC A LTE",
+    "conn_type": "",
+    "conn_data": {
+      "calamp_ipr_omega_fee_paid": false,
+      "calamp_next_lookup_time": null,
+      "is_on_ctc": false
+    },
+    "data_node": "",
+    "settings": {
+      "begin_moving_speed": {
+        "display": "4.8 km/h",
+        "unit": "km/h",
+        "value": 4.828024
+      },
+      "begin_stopped_speed": {
+        "display": "2 mph",
+        "unit": "mph",
+        "value": 2
+      },
+      "calamp_vbus_detection_bitfield": 95,
+      "drive_timeout": {
+        "display": "30m",
+        "unit": "s",
+        "value": 1800
+      },
+      "engine_hours_counter_config": "best",
+      "fuel_consumption": {
+        "calculation_method": "fuel_sensor",
+        "fuel_cost": 4.5,
+        "fuel_economy": 0,
+        "fuel_type": "87 Regular",
+        "measurement": "mpg"
+      },
+      "harsh_event_min_speed": {
+        "display": "0 mph",
+        "unit": "mph",
+        "value": 0
+      },
+      "history_calc_duration": {
+        "display": "24h",
+        "unit": "s",
+        "value": 86400
+      },
+      "history_retention_days": 1095,
+      "initial_device_point_delete_cutoff_time": null,
+      "max_drift_distance": {
+        "display": "350 m",
+        "unit": "m",
+        "value": 350
+      },
+      "max_hdop": 3.5,
+      "min_num_satellites": 6,
+      "offline_timeout": {
+        "display": "1h 5m",
+        "unit": "s",
+        "value": 3900
+      },
+      "stop_timeout": {
+        "display": "4h",
+        "unit": "s",
+        "value": 14400
+      },
+      "use_v3_engine_hours": true
+    },
+    "secondary_id": "",
+    "user_id_list": [
+      "6dszt0R2NqXDfF81f07-0-",
+      "6dt7xZRjNfyzKk81f07-0-",
+      "6eHH_Gn2O3iaU-81f07-0F",
+      "6eHH_U--O_qaW-81f07-0F",
+      "6eIT4OMsOf1Op-81f07-0-",
+      "6eIT4i_MPULOrk81f07-0-",
+      "6eIT4qzRQ59Os-81f07-0-",
+      "6eIT51nROEXOsk81f07-0-",
+      "6eIT5LigNOuOu-81f07-0-",
+      "6eIT5VboOkqOuV81f07-0-",
+      "6eIT5egBO7uOvV81f07-0-",
+      "6fU3eVilNWy9JV81f07-0-",
+      "6gW5FBcgO8Lg0k81f07-0V",
+      "6gpWGax8QKTBlF81f07-0V",
+      "6gzKVTwiQhqrhk81f07-0V",
+      "6hHooevYN-P0Ok81f07-0F",
+      "6hV7h0aPQcq6x-81f07-0F",
+      "6hnoo-0PO2u0Y-81f07--k",
+      "6hvfew4BQDT2Y-81f07-0F",
+      "6hvfvkvmO1D2jF81f07-0F",
+      "6iJPRHzYQBT9yk81f07-1-",
+      "6iPgAvReOsDCLF81f07-1-",
+      "6iZiK7uKQSDAI-81f07-0V",
+      "6iwghAscOdPaRF81f07-1-",
+      "6iwghKkBP85aRV81f07-1-",
+      "6iwghQwjQqDaRk81f07-1-",
+      "6iwghh6mPBmaS-81f07-1-",
+      "6iwghnUhPdTaS-81f07-1-",
+      "6iwghtgiQSPaS-81f07-1-",
+      "6iwgi08oP3maS-81f07-1-",
+      "6iwgiDPiQnyaS-81f07-1-",
+      "6iwgiKJ5QkmaS-81f07-1-",
+      "6iwgiQr4OiyaSF81f07-1-",
+      "6jNy9iGsQMiwNk81f07-1k",
+      "6jXp2wUqO3XtTF81f07-1k",
+      "6jasbBFwQgeIsk81f07-1k"
+    ],
+    "online": true,
+    "latest_device_point": {
+      "device_point_id": "6jiFy9hmNiTqpV81f07-1k",
+      "dt_server": "2024-12-13T05:03:07.46303Z",
+      "dt_tracker": "2024-12-13T05:03:06Z",
+      "lat": 37.7457168,
+      "lng": -121.4519935,
+      "altitude": -17.77,
+      "angle": 272,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2316558704",
+        "acm1": "385591340",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12737",
+        "acm13": "4104",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "5441",
+        "acm2": "3078311650",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "149",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1424",
+        "acm29": "160",
+        "acm3": "8696",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "18",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-60",
+        "seatbelt": "0",
+        "seq_num": "17659",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "4T1BF3EK5AU563151"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572263305",
+        "transmit_time": "2024-12-13T05:03:07Z",
+        "gps_time": "2024-12-13T05:03:06Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 37.7457168,
+          "lng": -121.4519935
+        },
+        "altitude": {
+          "display": "-17.8 m",
+          "unit": "m",
+          "value": -17.77
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 272,
+        "hdop": 0.7,
+        "num_satellites": 18,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "17659",
+        "rssi": -60,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.737,
+        "backup_battery_volt": 4.104,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6ji2L88uQVP1EF81f07-1V",
+        "drive_status_duration": {
+          "display": "26h 33s",
+          "unit": "s",
+          "value": 93633
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "1.6 m",
+          "unit": "m",
+          "value": 1.6376517568876194
+        },
+        "drive_status_begin_time": "2024-12-12T03:02:33Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 37.7457035,
+          "lng": -121.4520015
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:03:06.000000|2024-12-13 05:03:07.463030|6jiFy9hmNiTqpV81f07-1k"
+    },
+    "latest_accurate_device_point": {
+      "device_point_id": "6jiFy9hmNiTqpV81f07-1k",
+      "dt_server": "2024-12-13T05:03:07.46303Z",
+      "dt_tracker": "2024-12-13T05:03:06Z",
+      "lat": 37.7457168,
+      "lng": -121.4519935,
+      "altitude": -17.77,
+      "angle": 272,
+      "speed": 0,
+      "params": {
+        "acc": "0",
+        "acm0": "2316558704",
+        "acm1": "385591340",
+        "acm10": "9",
+        "acm11": "0",
+        "acm12": "12737",
+        "acm13": "4104",
+        "acm14": "0",
+        "acm15": "0",
+        "acm16": "5441",
+        "acm2": "3078311650",
+        "acm22": "0",
+        "acm23": "0",
+        "acm24": "149",
+        "acm25": "0",
+        "acm26": "0",
+        "acm27": "0",
+        "acm28": "1424",
+        "acm29": "160",
+        "acm3": "8696",
+        "acm5": "0",
+        "acm6": "0",
+        "acm7": "0",
+        "acm8": "0",
+        "acm9": "0",
+        "evtc": "2",
+        "evti": "40",
+        "gpslev": "18",
+        "hdop": "0.7",
+        "input1": "0",
+        "input2": "0",
+        "last_known_loc": "0",
+        "oil_press_lamp": "0",
+        "predicted_gps": "0",
+        "rssi": "-60",
+        "seatbelt": "0",
+        "seq_num": "17659",
+        "service_type": "ack_request",
+        "valid_fix": "1",
+        "vin": "4T1BF3EK5AU563151"
+      },
+      "device_point_external": {
+        "hardware_odometer_offset": {},
+        "posted_speed_limit": {},
+        "software_odometer_reading": {},
+        "stuck_odometer_offset": {}
+      },
+      "device_point_detail": {
+        "factory_id": "4572263305",
+        "transmit_time": "2024-12-13T05:03:07Z",
+        "gps_time": "2024-12-13T05:03:06Z",
+        "acc": false,
+        "lat_lng": {
+          "lat": 37.7457168,
+          "lng": -121.4519935
+        },
+        "altitude": {
+          "display": "-17.8 m",
+          "unit": "m",
+          "value": -17.77
+        },
+        "speed": {
+          "display": "0 km/h",
+          "unit": "km/h",
+          "value": 0
+        },
+        "heading": 272,
+        "hdop": 0.7,
+        "num_satellites": 18,
+        "remote_addr": "",
+        "hevent_list": null,
+        "dtc_list": null,
+        "motion_log": {
+          "end_heading": null,
+          "end_time": null,
+          "max_accelerating_force": {},
+          "max_decelerating_force": {},
+          "max_left_turn_force": {},
+          "max_right_turn_force": {},
+          "start_heading": null,
+          "start_time": null
+        },
+        "packet_sequence_id": "17659",
+        "rssi": -60,
+        "trip_distance": {},
+        "travel_distance": {},
+        "external_volt": 12.737,
+        "backup_battery_volt": 4.104,
+        "video_original_event": {
+          "hevent_type": ""
+        },
+        "remaining_battery_percent": null,
+        "historic": false,
+        "session_connected": true,
+        "diff_corrected": true,
+        "predicted": false,
+        "input_1_high": false,
+        "input_2_high": false
+      },
+      "device_state": {
+        "drive_status": "off",
+        "drive_status_id": "6ji2L88uQVP1EF81f07-1V",
+        "drive_status_duration": {
+          "display": "26h 33s",
+          "unit": "s",
+          "value": 93633
+        },
+        "drive_status_distance": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "drive_status_lat_lng_distance": {
+          "display": "1.6 m",
+          "unit": "m",
+          "value": 1.6376517568876194
+        },
+        "drive_status_begin_time": "2024-12-12T03:02:33Z",
+        "best_distance_delta": {
+          "display": "0 m",
+          "unit": "m",
+          "value": 0
+        },
+        "is_new_drive_status": false,
+        "adjusted_lat_lng": {
+          "lat": 37.7457035,
+          "lng": -121.4520015
+        },
+        "beyond_max_drift_distance": false,
+        "prev_drive_status_duration": {},
+        "prev_drive_status_distance": {}
+      },
+      "device_state_stale": false,
+      "sequence": "2024-12-13 05:03:06.000000|2024-12-13 05:03:07.463030|6jiFy9hmNiTqpV81f07-1k"
+    },
+    "device_groups_id_list": null,
+    "device_field_list": null,
+    "device_ui_settings": {
+      "dynamic_device_icon_settings": {
+        "dynamic_icon_pack": ""
+      }
+    }
+  }
+]
