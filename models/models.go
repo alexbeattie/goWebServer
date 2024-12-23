@@ -1,18 +1,30 @@
 package models
 import (
-	
+	"time"
 	"gorm.io/gorm"
 )
 
 // UserPreferences stores user-specific settings
 type UserPreferences struct {
-	gorm.Model
-	UserID         uint     `json:"user_id"`
-	SortOrder      string   `json:"sort_order"`
-	HiddenDevices  []string `json:"hidden_devices" gorm:"type:text[]"`
-	DefaultFilters string   `json:"default_filters"`
-	MapSettings    string   `json:"map_settings"`
+    gorm.Model
+    UserID          string    `json:"user_id" gorm:"uniqueIndex"`
+    SortOrder       string    `json:"sort_order"`
+    HiddenDevices   []string  `json:"hidden_devices" gorm:"type:text[]"`
+    DefaultFilters  string    `json:"default_filters"`
+    MapSettings     string    `json:"map_settings"`
+    ShowAddress     bool      `json:"show_address"`
+    ShowEngineHours bool      `json:"show_engine_hours"`
+    ShowOdometer    bool      `json:"show_odometer"`
+    ShowVin         bool      `json:"show_vin"`
+    ShowSpeed       bool      `json:"show_speed"`
+    ShowHeading     bool      `json:"show_heading"`
+    ShowBattery     bool      `json:"show_battery"`
+    ShowSatellites  bool      `json:"show_satellites"`
+    ShowLastUpdate  bool      `json:"show_last_update"`
+    LastUpdated     time.Time `json:"last_updated"`
 }
+
+
 
 // APIResponse wraps the device list response from OneStepGPS API
 type APIResponse struct {
@@ -100,6 +112,8 @@ type DevicePointDetail struct {
 	Predicted              interface{}            `json:"predicted"`
 	Input1High             interface{}            `json:"input_1_high"`
 	Input2High             interface{}            `json:"input_2_high"`
+	VIN             string          `json:"vin" gorm:"column:detail_vin"`
+
 }
 
 // DeviceState represents the current state of a device
@@ -116,16 +130,30 @@ type DeviceState struct {
 	BeyondMaxDriftDistance    bool                   `json:"beyond_max_drift_distance"`
 	PrevDriveStatusDuration   map[string]interface{} `json:"prev_drive_status_duration"`
 	PrevDriveStatusDistance   map[string]interface{} `json:"prev_drive_status_distance"`
+	SoftwareOdometer  OdometerReading `json:"software_odometer" gorm:"embedded;prefix:software_"`
+  HardwareOdometer  OdometerReading `json:"hardware_odometer" gorm:"embedded;prefix:hardware_"`
+  Odometer         OdometerReading `json:"odometer" gorm:"embedded"`
+	VIN             string          `json:"vin" gorm:"column:vin"`
+
+
 }
-type OdometerResponse struct {
-    Data struct {
-        OdometerValue struct {
-            Value   float64 `json:"value"`
-            Unit    string  `json:"unit"`
-            Display string  `json:"display"`
-        } `json:"odometer_value"`
-    } `json:"data"`
+type DevicePointExternal struct {
+    SoftwareOdometerReading OdometerReading `json:"software_odometer_reading" gorm:"embedded;prefix:external_"`
 }
+type OdometerReading struct {
+    Value    float64 `json:"value"`
+    Unit     string  `json:"unit"`
+    Display  string  `json:"display"`
+}
+// type OdometerResponse struct {
+//     Data struct {
+//         OdometerValue struct {
+//             Value   float64 `json:"value"`
+//             Unit    string  `json:"unit"`
+//             Display string  `json:"display"`
+//         } `json:"odometer_value"`
+//     } `json:"data"`
+// }
 type DurationData struct {
     Value   float64 `json:"value"`
     Unit    string  `json:"unit"`
@@ -183,7 +211,19 @@ type DeviceInfo struct {
 }
 
 
-
+// type InfoWindowPreferences struct {
+//     gorm.Model
+//     UserID          string `json:"user_id" gorm:"uniqueIndex"`
+//     ShowAddress     bool   `json:"show_address" gorm:"default:true"`
+//     ShowEngineHours bool   `json:"show_engine_hours" gorm:"default:true"`
+//     ShowOdometer    bool   `json:"show_odometer" gorm:"default:true"`
+//     ShowVIN         bool   `json:"show_vin" gorm:"default:true"`
+//     ShowSpeed       bool   `json:"show_speed" gorm:"default:true"`
+//     ShowHeading     bool   `json:"show_heading" gorm:"default:true"`
+//     ShowBattery     bool   `json:"show_battery" gorm:"default:true"`
+//     ShowSatellites  bool   `json:"show_satellites" gorm:"default:true"`
+//     ShowLastUpdate  bool   `json:"show_last_update" gorm:"default:true"`
+// }
 
 type DriveStop struct {
     Type                string      `json:"type"`

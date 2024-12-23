@@ -55,23 +55,23 @@ func (s *Service) FetchDevices() ([]models.Device, error) {
 
 	return response.ResultList, nil
 }
-func (s *Service) FetchDeviceOdometer(deviceID string) (*models.OdometerResponse, error) {
-    url := fmt.Sprintf("https://track.onestepgps.com/v3/api/public/odometer/%s?api-key=%s",
-        deviceID, s.config.OneStepGPSAPIKey)
+// // func (s *Service) FetchDeviceOdometer(deviceID string) (*models.OdometerResponse, error) {
+//     url := fmt.Sprintf("https://track.onestepgps.com/v3/api/public/odometer/%s?api-key=%s",
+//         deviceID, s.config.OneStepGPSAPIKey)
     
-    resp, err := s.client.Get(url)
-    if err != nil {
-        return nil, fmt.Errorf("failed to fetch odometer: %w", err)
-    }
-    defer resp.Body.Close()
+//     resp, err := s.client.Get(url)
+//     if err != nil {
+//         return nil, fmt.Errorf("failed to fetch odometer: %w", err)
+//     }
+//     defer resp.Body.Close()
 
-    var response models.OdometerResponse
-    if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
-        return nil, fmt.Errorf("failed to decode odometer response: %w", err)
-    }
+//     var response models.OdometerResponse
+//     if err := json.NewDecoder(resp.Body).Decode(&response); err != nil {
+//         return nil, fmt.Errorf("failed to decode odometer response: %w", err)
+//     }
 
-    return &response, nil
-}
+//     return &response, nil
+// }
 // services/service.go
 func (s *Service) FetchDeviceInfo(params map[string]string) (*models.DeviceInfoResponse, error) {
     url := fmt.Sprintf("https://track.onestepgps.com/v3/api/public/device-info?lat_lng=1&api-key=%s",

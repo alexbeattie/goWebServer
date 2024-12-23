@@ -47,7 +47,7 @@ func main() {
 	}
 
 	service := services.NewService(db, cfg)
-	handler := handlers.NewHandler(service)
+	handler := handlers.NewHandler(service, db)
 
 	r := gin.Default()
 	// Add CORS middleware
@@ -72,15 +72,14 @@ func main() {
 
 	}))
 	api := r.Group("/api/v1")
-	{
-		api.GET("/preferences/:userId", handler.GetPreferences)
-		api.PUT("/preferences/:userId", handler.UpdatePreferences)
-		api.GET("/devices", handler.GetDevices)
-	}
+{
+    api.GET("/preferences/:userId", handler.GetUserPreferences)    // Changed from GetPreferences
+    api.PUT("/preferences/:userId", handler.UpdateUserPreferences) // Changed from UpdatePreferences
+    api.GET("/devices", handler.GetDevices)
+}
 	// Add this new v3 group
 	v3 := r.Group("/v3/api")
 	{
-		v3.GET("/odometer/:device_id", handler.GetDeviceOdometer)
 		    v3.GET("/device-info", handler.GetDeviceInfo)
     v3.GET("/route/drive-stop", handler.GetDriveStopRoute)
 
